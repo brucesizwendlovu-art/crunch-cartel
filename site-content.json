@@ -1,0 +1,47 @@
+{
+  "businessName": "CRUNCH CARTEL",
+  "tagline": "Fresh, fast, and made to order",
+  "hero": {
+    "headline": "Serving crave-worthy meals from the road.",
+    "description": "Bring your favorite flavors wherever the crowd is. From sizzling street tacos to gourmet sandwiches, we bring the kitchen to you.",
+    "ctaPrimary": "Explore Menu",
+    "ctaSecondary": "Book Us",
+    "highlights": [
+      "Loaded fries",
+      "Signature wraps",
+      "House-made sauces"
+    ]
+  },
+  "about": {
+    "title": "Bringing comfort food to your neighborhood.",
+    "description": "Our mobile eatery is built around bold flavors, dependable service, and unforgettable meals. Whether you are hosting an event, stopping by a local market, or looking for a quick lunch, we are ready to serve.",
+    "benefits": [
+      "Fast service",
+      "Fresh ingredients",
+      "Flexible event catering"
+    ]
+  },
+  "products": [
+    {
+      "name": "Street Tacos",
+      "description": "Soft tortillas filled with your choice of grilled meats, fresh toppings, and house salsa."
+    },
+    {
+      "name": "Loaded Fries",
+      "description": "Crispy fries topped with cheese, sauces, and your favorite add-ons."
+    },
+    {
+      "name": "Signature Wraps",
+      "description": "Handmade wraps packed with flavor, crunch, and a satisfying finish."
+    },
+    {
+      "name": "Fresh Drinks",
+      "description": "Cool, refreshing beverages to pair with every meal."
+    }
+  ],
+  "contact": {
+    "phone": "+1 (555) 123-4567",
+    "location": "City parks, markets, and private events",
+    "email": "hello@yourmobileeatery.com"
+  }
+}
