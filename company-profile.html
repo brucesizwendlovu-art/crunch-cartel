@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile | CRUNCH CARTEL</title>
+    <meta
+      name="description"
+      content="Learn more about CRUNCH CARTEL, our story, mission, and the experience we bring to events and communities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero profile-hero">
+      <div class="hero-logo-background" aria-hidden="true">
+        <img src="images/logo/CRUNCH CARTEL logo.png" alt="" />
+      </div>
+      <nav class="nav container">
+        <a href="index.html" class="brand brand-logo">
+          <img src="images/logo/CRUNCH CARTEL logo.png" alt="CRUNCH CARTEL" />
+        </a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="index.html#products" class="nav-link">Menu</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container" id="home">
+        <div>
+          <p class="eyebrow">Company Profile</p>
+          <h1>From a bold idea to a mobile food movement.</h1>
+          <p class="hero-text">
+            CRUNCH CARTEL is a South African mobile eatery bringing Mexican-inspired comfort food to neighbourhoods, events, and celebrations with fresh ingredients, bold flavour, and a vibrant street-food experience.
+          </p>
+          <div class="hero-actions">
+            <button type="button" class="btn btn-primary" data-open-contact-modal>Book Crunch Cartel</button>
+            <a href="index.html" class="btn btn-secondary">Back to Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about container">
+        <div>
+          <p class="eyebrow">Our story</p>
+          <h2>Built on flavour, culture, and unforgettable service.</h2>
+          <p>
+            Crunch Cartel was created to bring people together through bold, satisfying food that feels familiar yet exciting. Our menu blends Mexican-inspired flavours with local favourites, all served with energy, creativity, and the kind of hospitality that turns a meal into a memorable moment.
+          </p>
+        </div>
+        <div class="info-block">
+          <h3>At a glance</h3>
+          <ul class="profile-list">
+            <li>Mobile catering for events and markets</li>
+            <li>Freshly prepared meals made to order</li>
+            <li>Flexible menu options for every crowd</li>
+            <li>Proudly serving communities across South Africa</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="products container" id="profile-highlights">
+        <div class="section-heading">
+          <p class="eyebrow">What defines us</p>
+          <h2>More than a food truck, a full experience.</h2>
+        </div>
+
+        <div class="profile-grid">
+          <article class="profile-card">
+            <h3>Our mission</h3>
+            <p>To deliver vibrant, flavour-packed street food that feels joyful, comforting, and worth coming back for.</p>
+          </article>
+
+          <article class="profile-card">
+            <h3>Our approach</h3>
+            <p>We focus on quality ingredients, quick service, and a welcoming experience that fits both casual gatherings and bigger events.</p>
+          </article>
+
+          <article class="profile-card">
+            <h3>Our promise</h3>
+            <p>Every plate is created with care, energy, and the confidence to serve bold bites that leave a lasting impression.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2>Ready to bring Crunch Cartel to your next event?</h2>
+          <p>
+            Whether you are planning a private celebration, a corporate function, or a lively community gathering, we would love to help you build the right food experience.
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>Book us</h3>
+          <p>Tell us about your event, your preferred menu, and your location and we will help you plan the perfect setup.</p>
+          <button type="button" class="btn btn-primary" data-open-contact-modal>Contact the team</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-backdrop" id="contact-modal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+        <button type="button" class="modal-close" aria-label="Close contact details" data-close-contact-modal>×</button>
+        <p class="eyebrow">Contact details</p>
+        <h3 id="contact-modal-title">Reach the Crunch Cartel team</h3>
+        <p class="modal-copy">We would love to help with your next event, market, or celebration.</p>
+        <div class="modal-details">
+          <p><strong>Phone:</strong> +27 63 963 9162</p>
+          <p><strong>Location:</strong> 87 8th Street, Menlo Park, Pretoria</p>
+          <p><strong>Email:</strong> bruce@crunchcartel.co.za</p>
+        </div>
+        <button type="button" class="btn btn-primary" data-close-contact-modal>Close</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
