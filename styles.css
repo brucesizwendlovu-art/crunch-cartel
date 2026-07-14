@@ -585,16 +585,59 @@ button.btn {
   margin-top: 0.5rem;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .hero-content,
   .about,
-  .contact,
-  .product-grid {
+  .contact {
     grid-template-columns: 1fr;
   }
 
   .hero-content {
     padding-top: 2rem;
+  }
+
+  .menu-item {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-image-carousel {
+    min-height: 220px;
+  }
+
+  .menu-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: min(100% - 1.25rem, 1120px);
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .brand-logo img {
+    height: 52px;
+  }
+
+  .hero {
+    padding-bottom: 3rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn {
+    text-align: center;
   }
 
   .about,
@@ -604,18 +647,55 @@ button.btn {
     padding: 3rem 0;
   }
 
-  .gallery-grid,
-  .profile-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .nav-links {
-    gap: 0.75rem;
+  .menu-item {
+    padding: 1rem;
   }
 
   .menu-toppings,
   .menu-options,
   .menu-extras {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-grid,
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    width: calc(100% - 1rem);
+  }
+
+  .hero-content {
+    padding: 1.5rem 0 0.5rem;
+  }
+
+  h1 {
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
+  }
+
+  .hero-text {
+    font-size: 0.98rem;
+  }
+
+  .info-block,
+  .contact-card,
+  .menu-filling-group,
+  .menu-extras {
+    padding: 1rem;
+  }
+
+  .gallery-grid img {
+    height: 190px;
+  }
+
+  .menu-item h4 {
+    font-size: 1rem;
   }
 }
